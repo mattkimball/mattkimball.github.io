@@ -20,7 +20,7 @@
     align-items: end;
 }
 img {
-    height: 54px;
+    height: 72px;
     border-radius: 50%;
     margin-right: 8px;
 }
@@ -50,9 +50,16 @@ hr {
 footer {
     position: fixed;
     bottom: 0;
+    padding-bottom: 4px;
     width: 100%;
     text-align: center;
 }
 .muted {
     color: gray;
+}
+.nowrap {
+    text-wrap: nowrap;
+}
+span {
+    line-height: 1.2em;
 }
